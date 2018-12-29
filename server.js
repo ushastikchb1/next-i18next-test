@@ -14,7 +14,7 @@ const handle = app.getRequestHandler();
   nextI18NextMiddleware(nextI18next, app, server);
 
   server.get("/:locale(ru|en)?", (req, res) => {
-    app.render(req, res, "index");
+    app.render(req, res, "/index");
   });
 
   server.get('*', (req, res) => handle(req, res));
