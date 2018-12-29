@@ -1,0 +1,14 @@
+.eslintrc.json
+.idea
+docker-compose.demo.yml
+docker-compose.prod.yml
+docker-compose.yml
+Dockerfile
+Dockerfile-docs
+docs
+Jenkinsfile
+logs
+node_modules
+readme.md
+static
+templates

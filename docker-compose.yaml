@@ -1,0 +1,9 @@
+version: "2"
+services:
+  app:
+    build:
+      context: .
+    volumes:
+      - ./pages:/app/pages
+    ports:
+      - 3000:80

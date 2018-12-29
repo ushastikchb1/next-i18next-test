@@ -1,0 +1,26 @@
+{
+  "name": "next-i18next-test",
+  "version": "1.0.0",
+  "main": "i18n.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ushastikchb1/next-i18next-test.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ushastikchb1/next-i18next-test/issues"
+  },
+  "homepage": "https://github.com/ushastikchb1/next-i18next-test#readme",
+  "dependencies": {
+    "express": "4.16.4",
+    "react": "16.7.0",
+    "react-dom": "16.7.0",
+    "next": "7.0.2",
+    "next-i18next": "0.15.0"
+  },
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  }
+}
